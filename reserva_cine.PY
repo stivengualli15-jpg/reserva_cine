@@ -7,8 +7,8 @@ asientos = [
     [0, 0, 0, 0],
     [0, 0, 0, 0]
 ]
-fila = int(input("Ingrese fila (0 a 2): "))
-columna = int(input("Ingrese columna (0 a 3): "))
+fila = int(input("Ingrese una fila (0 a 2): "))
+columna = int(input("Ingrese una columna (0 a 3): "))
 asientos[fila][columna] = 1
 print("\nEstado de la sala:")
 for i in range(len(asientos)):         
